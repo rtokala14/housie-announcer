@@ -1,5 +1,9 @@
 function App() {
-  return <div className=" text-red-400">Hello</div>;
+  return (
+    <div className=" h-screen w-screen flex flex-col items-center justify-center">
+      <button className=" btn">Test Button</button>
+    </div>
+  );
 }
 
 export default App;
